@@ -8,13 +8,14 @@
   <title>Thomson TM</title>
 </head>
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Homenaje');
+  @import url('font/Homenaje-Regular.ttf');
 
   body {
     font-family: 'Homenaje', sans-serif;
     background-color: #438190;
   }
   .main {
+    font-size: 10vw;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -23,40 +24,27 @@
   }
   .main-text {
     position: relative;
-    font-size: 86px;
+    font-size: 1em;
     color : #fe9c00;
   }
   .sub-main-text {
-    font-size: 40px;
-    color : #ffffff;
+    font-size: 0.48em;
+    color: #ffffff;
   }
-  span {
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 30px;
+  sup {
+    position: relative;
+    vertical-align: top;
+    font-size: 0.4em;
+    right: 5%;
   }
 
-@media (min-width: 320px) and (max-width: 480px) {
-
-  span {
-    font-size: 17px;
-  }
-  .main-text {
-    font-size: 42px;
-  }
-  .sub-main-text {
-    font-size: 20px;
-  }
-  
-}
 </style>
 
 <body>
   <div class="main">
-    <div class="main-text">Thomson <span>&trade;</span></div>
+    <div class="main-text">Thomson <sup>TM</sup>
     <div class="sub-main-text">preparing to serve you</div>
+  </div>
 </div>
 </body>
-
 </html>
